@@ -20,7 +20,7 @@ func main() {
 
 	router.Use(cors.Default())
 
-	router.POST("/login", trackIt)
+	router.POST("/track", trackIt)
 
 	router.Run(":8080")
 }
